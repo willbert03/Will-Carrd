@@ -7,3 +7,5 @@ This website uses these sources:
 | Repository | Usage |
 | --- | --- |
 | [Carrd](https://github.com/BesrourMS/Carrd) | Whole idea of a website |
+| [pdf-flipbook](https://github.com/HiIamChaitanya/pdf-flipbook) | Show PDF portfolios |
+| [ChatGPT](https://chat.openai.com/) | Help debugging html |
