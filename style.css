@@ -665,17 +665,6 @@ p {
     color: #fff;
   }
   
-  @media (max-width: 736) {
-    .popup-container table {
-      width: 80%;
-      max-width: 100%;
-    }
-  
-    .popup-container th,
-    .popup-container td {
-      padding: 8px;
-    }
-  }
 @media (max-width: 1920px) {
     body:before {
         width: calc(100% - 40rem);
