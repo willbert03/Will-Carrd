@@ -142,7 +142,7 @@
 
 .df-container.df-loading:after {
     content: " ";
-    background-image: url("../images/loading.svg");
+    background-image: url("../images/loading.gif");
     background-repeat: no-repeat;
     background-size: 32px;
     background-position: 50%

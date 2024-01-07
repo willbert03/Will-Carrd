@@ -230,7 +230,7 @@ body:before {
     background-repeat: repeat;
     background-size: cover;
     background-attachment: scroll;
-    background-color: #123
+    background-color: #222;
 }
 
 body:after {
@@ -596,7 +596,6 @@ p {
     border-color: #fff
 }
 
-/* Styles for the popup container */
 .popup-container {
     display: none;
     position: fixed;
@@ -614,7 +613,6 @@ p {
 
   }
 
-  /* Styles for the table within the popup */
   .popup-container table {
     width: 100%;
     border-collapse: collapse;
@@ -667,7 +665,17 @@ p {
     color: #fff;
   }
   
-
+  @media (max-width: 736) {
+    .popup-container table {
+      width: 80%;
+      max-width: 100%;
+    }
+  
+    .popup-container th,
+    .popup-container td {
+      padding: 8px;
+    }
+  }
 @media (max-width: 1920px) {
     body:before {
         width: calc(100% - 40rem);
