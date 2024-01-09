@@ -10,3 +10,4 @@ This website uses these sources:
 | [pdf-flipbook](https://github.com/HiIamChaitanya/pdf-flipbook) | Show PDF portfolios |
 | [ChatGPT](https://chat.openai.com/) | Help debugging html |
 | [LoadingGIF](https://www.3dgifmaker.com/Rocking) | Converted a asset into a moving GIF |
+| [GoogleFonts](https://fonts.google.com/specimen/Spectral) | Uses the Spectral font |

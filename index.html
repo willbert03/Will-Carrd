@@ -30,10 +30,16 @@
       rel="stylesheet"
       type="text/css" />
     <link href="style.css" rel="stylesheet" />
+    <link href="fonts.css" rel="stylesheet" />
     <noscript>
       <style>
+        html {
+          height: 100%;
+          background-color: #222;
+        }
         body {
           overflow: auto !important;
+          background-color: #222;
         }
         body:after {
           display: none !important;
@@ -75,7 +81,7 @@
     </noscript>
   </head>
   <body>
-    <div style="body:before" id="backgroundContainer">
+    <div style="body: before" id="backgroundContainer">
       <img id="rotatingImage" src="" alt="Rotating Image" />
     </div>
   </body>
@@ -183,10 +189,10 @@
               </p>
             </div>
           </div>
-          <ul id="first-buttons" class="buttons">
+          <ul id="first-buttons" class="buttons no-select">
             <li>
               <a
-                class="button btn"
+                class="button btn no-select"
                 onmouseover="this.style.color='#55C6D8'; this.style.borderColor='#55C6D8';"
                 onmouseout="this.style.color='#ffffff'; this.style.borderColor='#ffffff';"
                 onclick="openPopup()"
@@ -196,7 +202,7 @@
             <li>
               <a
                 href="https://t.me/willbert03"
-                class="button btn"
+                class="button btn no-select"
                 onmouseover="this.style.color='#1C93E3'; this.style.borderColor='#1C93E3';"
                 onmouseout="this.style.color='#ffffff'; this.style.borderColor='#ffffff';"
                 >Telegram</a
@@ -205,7 +211,7 @@
             <li>
               <a
                 href="https://github.com/willbert03"
-                class="button btn"
+                class="button btn no-select"
                 onmouseover="this.style.color='#c9510c'; this.style.borderColor='#c9510c';"
                 onmouseout="this.style.color='#ffffff'; this.style.borderColor='#ffffff';"
                 >GitHub</a
@@ -214,7 +220,7 @@
             <li>
               <a
                 href="https://www.linkedin.com/in/william-leggett-b351b82a0/"
-                class="button btn"
+                class="button btn no-select"
                 onmouseover="this.style.color='#0077B5'; this.style.borderColor='#0077B5';"
                 onmouseout="this.style.color='#ffffff'; this.style.borderColor='#ffffff';"
                 >LinkedIn</a
@@ -223,7 +229,7 @@
             <li>
               <a
                 href="https://www.instagram.com/willbert03/"
-                class="button btn"
+                class="button btn no-select"
                 onmouseover="this.style.color='#FF0069'; this.style.borderColor='#FF0069';"
                 onmouseout="this.style.color='#ffffff'; this.style.borderColor='#ffffff';"
                 >Instagram</a
@@ -232,7 +238,7 @@
             <li>
               <a
                 href="https://open.spotify.com/user/m721lyjmo4bhqy922jubq2noe"
-                class="button btn"
+                class="button btn no-select"
                 onmouseover="this.style.color='#1DB954'; this.style.borderColor='#1DB954';"
                 onmouseout="this.style.color='#ffffff'; this.style.borderColor='#ffffff';"
                 >Spotify</a
@@ -241,7 +247,7 @@
             <li>
               <a
                 href="https://www.roblox.com/users/344450296/profile"
-                class="button btn"
+                class="button btn no-select"
                 onmouseover="this.style.color='#E2231A'; this.style.borderColor='#E2231A';"
                 onmouseout="this.style.color='#ffffff'; this.style.borderColor='#ffffff';"
                 >Roblox</a
