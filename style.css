@@ -713,6 +713,8 @@ p {
   body:before {
     width: calc(100% - 40rem);
     width: calc(100vw - 40rem);
+    position: absolute;
+    top: 0;
   }
 
   #main > .inner {

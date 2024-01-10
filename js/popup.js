@@ -15,9 +15,14 @@ document.addEventListener("keydown", function (event) {
   }
 });
 
-// Hide when android back button pressed
+// Hide when Android back button pressed
 document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("popstate", function (event) {
     closePopup();
   });
+
+  // Handle Apple back gesture
+  window.onpopstate = function (event) {
+    closePopup();
+  };
 });
