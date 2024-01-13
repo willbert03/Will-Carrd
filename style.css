@@ -272,6 +272,7 @@ body.is-loading:after {
   z-index: 1;
   animation: fadeIn 1.5s;
   background-color: #222;
+  user-select: none;
 }
 
 #rotatingImage {
@@ -279,6 +280,7 @@ body.is-loading:after {
   height: 100%;
   object-fit: cover;
   background-color: #222;
+  user-select: none;
 }
 
 @keyframes fadeIn {
@@ -468,6 +470,10 @@ p {
   font-size: 3.75em;
   line-height: 1.25;
   font-weight: 200;
+}
+
+p:visited {
+  color: #fff;
 }
 
 .container > .inner {
@@ -717,14 +723,12 @@ p {
     top: 0;
   }
 
-  #main > .inner {
-    width: 40rem;
-  }
-}
-
-@media (max-width: 1680px) {
   html {
     font-size: 13pt;
+  }
+
+  #main > .inner {
+    width: 40rem;
   }
 }
 
@@ -759,6 +763,10 @@ p {
     font-size: 11pt;
   }
 
+  #rotatingImage {
+    object-position: top;
+  }
+  
   body {
     display: -moz-flex;
     display: -webkit-flex;
