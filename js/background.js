@@ -1,5 +1,5 @@
       // Array of image filenames
-      const imageArray = ["img/Patterns/Rhino.svg", "img/Patterns/Giraffe.svg", "img/Patterns/Lorikeet.svg", "img/Patterns/Pattern.svg", ];
+      const imageArray = ["img/Patterns/Rhino.svg", "img/Patterns/Giraffe.svg", "img/Patterns/Lorikeet.svg", "img/Patterns/Pattern.svg", "img/Patterns/Animals.svg"];
 
       // Get the image element by its ID
       const rotatingImage = document.getElementById("rotatingImage");
