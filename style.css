@@ -562,7 +562,7 @@ p:visited {
   border-color: #fff;
 }
 .popup-container {
-  display: none;
+  display: ;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -576,7 +576,7 @@ p:visited {
   color: #fff;
   font-family: "Spectral";
   animation: fadeIn 0.2s;
-}
+} 
 .popup-container table {
   width: 100%;
   border-collapse: collapse;
@@ -620,6 +620,34 @@ p:visited {
   background-color: #dc3545;
   color: #fff;
 }
+/* Add media query to style the table for smaller screens */
+@media (max-width: 600px) {
+  .popup-container table {
+    display: block;
+    width: 100%;
+  }
+
+  .popup-container th,
+  .popup-container td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .popup-container th {
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+  }
+
+  .popup-container td {
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: 200;
+  }
+}
+
 @media (max-width: 1920px) {
   body:before {
     width: calc(100% - 40rem);
