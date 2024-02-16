@@ -807,7 +807,7 @@ p:visited {
   .popup-container td {
     padding: 1px;
   }
-  #body { width: 100% }
+  #container { width: 100% }
 }
 @media (max-width: 480px) {
   #main > .inner > * {
