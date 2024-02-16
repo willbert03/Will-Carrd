@@ -562,7 +562,7 @@ p:visited {
   border-color: #fff;
 }
 .popup-container {
-  display: ;
+  display: none;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -585,6 +585,7 @@ p:visited {
 .popup-container td {
   border: 1px solid #fff;
   padding: 10px;
+  margin-bottom: 10p
   text-align: center;
   font-weight: 200;
 }
@@ -620,7 +621,6 @@ p:visited {
   background-color: #dc3545;
   color: #fff;
 }
-/* Add media query to style the table for smaller screens */
 @media (max-width: 600px) {
   .popup-container table {
     display: block;
@@ -807,6 +807,7 @@ p:visited {
   .popup-container td {
     padding: 1px;
   }
+  #body { width: 100% }
 }
 @media (max-width: 480px) {
   #main > .inner > * {
