@@ -121,6 +121,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+#mtable {
+  display: none;
+}
+
 body {
   -webkit-text-size-adjust: none;
 }
@@ -646,6 +650,12 @@ p:visited {
     text-align: center;
     font-weight: 200;
   }
+  #mtable {
+    display: block;
+}
+#dtable {
+  display: none;
+}
 }
 
 @media (max-width: 1920px) {
