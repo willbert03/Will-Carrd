@@ -172,11 +172,11 @@ code {
   font-size: 0.9em;
   margin: 0 0.25em;
   padding: 0.25em 0.5em;
-  background-color: #fff;
+  background-color: #e0e0e0;
   border-radius: 0.25em;
 }
 mark {
-  background-color: #fff;
+  background-color: #e0e0e0;
 }
 a {
   -moz-transition: color 0.25s ease, background-color 0.25s ease,
@@ -218,7 +218,7 @@ body:before {
   background-repeat: repeat;
   background-size: cover;
   background-attachment: scroll;
-  background-color: #fff;
+  background-color: #e0e0e0;
 }
 body:after {
   display: block;
@@ -411,7 +411,7 @@ p .li {
   font-weight: 300;
 }
 #first-text {
-  color: #9696f4;
+  color: #8888DE;
   font-size: 1.75em;
 }
 #third-container br + br {
@@ -431,7 +431,7 @@ h1,
 h2,
 h3,
 p {
-  color: #fff;
+  color: #e0e0e0;
   font-family: "Spectral";
   letter-spacing: -0.025rem;
   width: 100%;
@@ -440,7 +440,7 @@ p {
   font-weight: 200;
 }
 p:visited {
-  color: #fff;
+  color: #e0e0e0;
 }
 .container > .inner {
   vertical-align: top;
@@ -494,7 +494,7 @@ p:visited {
   justify-content: flex-start;
   background-color: transparent;
   border-style: solid;
-  border-color: #fff;
+  border-color: #e0e0e0;
   border-top-width: 1px;
   border-bottom-width: 1px;
   border-radius: 0;
@@ -558,12 +558,12 @@ p:visited {
   border-radius: 0;
 }
 #first-buttons .btn {
-  color: #fff;
-  border: solid 1px #fff;
+  color: #e0e0e0;
+  border: solid 1px #e0e0e0;
 }
 #first-buttons .btn:hover {
-  color: #fff;
-  border-color: #fff;
+  color: #e0e0e0;
+  border-color: #e0e0e0;
 }
 .popup-container {
   display: none;
@@ -577,24 +577,25 @@ p:visited {
   box-shadow: 0 0 200vw 200vh #00000080;
   z-index: 1000;
   text-align: center;
-  color: #fff;
+  color: #e0e0e0;
   font-family: "Spectral";
   animation: fadeIn 0.2s;
 } 
 .popup-container table {
   width: 100%;
   border-collapse: collapse;
+  margin-top: 10px;
 }
 .popup-container th,
 .popup-container td {
-  border: 1px solid #fff;
+  border: 1px solid #e0e0e0;
   padding: 10px;
   margin-bottom: 10p
   text-align: center;
   font-weight: 200;
 }
 .popup-container th {
-  background-color: #fff;
+  background-color: #e0e0e0;
   color: #000;
   font-weight: 500;
 }
@@ -603,8 +604,8 @@ p:visited {
   margin: 10px;
   padding: 10px 20px;
   text-decoration: none;
-  color: #fff;
-  border: 1px solid #fff;
+  color: #e0e0e0;
+  border: 1px solid #e0e0e0;
   text-decoration: none;
   white-space: nowrap;
   max-width: 100%;
@@ -617,13 +618,13 @@ p:visited {
   display: inline-block;
   margin: 10px;
   padding: 10px 20px;
-  color: #fff;
+  color: #e0e0e0;
   background-color: #222222;
   cursor: pointer;
 }
 .popup-container button:hover {
   background-color: #dc3545;
-  color: #fff;
+  color: #e0e0e0;
 }
 @media (max-width: 600px) {
   .popup-container table {
@@ -639,13 +640,13 @@ p:visited {
   }
 
   .popup-container th {
-    background-color: #fff;
+    background-color: #e0e0e0;
     color: #000;
     font-weight: 500;
   }
 
   .popup-container td {
-    border: 1px solid #fff;
+    border: 1px solid #e0e0e0;
     padding: 10px;
     text-align: center;
     font-weight: 200;
@@ -655,6 +656,17 @@ p:visited {
 }
 #dtable {
   display: none;
+}
+#main > .inner {
+  width: 0rem;
+}
+#main {
+  margin: 0px;
+}
+#main > .inner {
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 100%;
 }
 }
 
@@ -816,6 +828,9 @@ p:visited {
   }
   .popup-container td {
     padding: 1px;
+  }
+  .popup-container table {
+    margin-top: 0px;
   }
   #container { width: 100% }
 }
