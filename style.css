@@ -172,11 +172,11 @@ code {
   font-size: 0.9em;
   margin: 0 0.25em;
   padding: 0.25em 0.5em;
-  background-color: #e0e0e0;
+  background-color: #ffffff;
   border-radius: 0.25em;
 }
 mark {
-  background-color: #e0e0e0;
+  background-color: #ffffff;
 }
 a {
   -moz-transition: color 0.25s ease, background-color 0.25s ease,
@@ -218,7 +218,7 @@ body:before {
   background-repeat: repeat;
   background-size: cover;
   background-attachment: scroll;
-  background-color: #e0e0e0;
+  background-color: #ffffff;
 }
 body:after {
   display: block;
@@ -228,7 +228,7 @@ body:after {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #242424;
+  background-color: #222222;
   z-index: 1;
   opacity: 0;
   visibility: hidden;
@@ -254,15 +254,16 @@ body.is-loading:after {
   z-index: 1;
   animation: fadeIn 1.5s;
   background-color: #222;
-  user-select: none;
 }
 #rotatingImage {
   width: 100%;
   height: 100%;
+  z-index: 1;
   object-fit: cover;
   background-color: #222;
-  user-select: none;
+
 }
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -431,7 +432,7 @@ h1,
 h2,
 h3,
 p {
-  color: #e0e0e0;
+  color: #ffffff;
   font-family: "Spectral";
   letter-spacing: -0.025rem;
   width: 100%;
@@ -439,8 +440,11 @@ p {
   line-height: 1.25;
   font-weight: 200;
 }
-p:visited {
-  color: #e0e0e0;
+p:link p:visited p:hover P:active {
+  color: #ffffff;
+}
+.button:hover {
+  cursor:url(img/Card.png), auto;
 }
 .container > .inner {
   vertical-align: top;
@@ -494,7 +498,7 @@ p:visited {
   justify-content: flex-start;
   background-color: transparent;
   border-style: solid;
-  border-color: #e0e0e0;
+  border-color: #ffffff;
   border-top-width: 1px;
   border-bottom-width: 1px;
   border-radius: 0;
@@ -558,12 +562,12 @@ p:visited {
   border-radius: 0;
 }
 #first-buttons .btn {
-  color: #e0e0e0;
-  border: solid 1px #e0e0e0;
+  color: #ffffff;
+  border: solid 1px #ffffff;
 }
 #first-buttons .btn:hover {
-  color: #e0e0e0;
-  border-color: #e0e0e0;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 .popup-container {
   display: none;
@@ -577,7 +581,7 @@ p:visited {
   box-shadow: 0 0 200vw 200vh #00000080;
   z-index: 1000;
   text-align: center;
-  color: #e0e0e0;
+  color: #ffffff;
   font-family: "Spectral";
   animation: fadeIn 0.2s;
 } 
@@ -588,15 +592,15 @@ p:visited {
 }
 .popup-container th,
 .popup-container td {
-  border: 1px solid #e0e0e0;
+  border: 1px solid #ffffff;
   padding: 10px;
   margin-bottom: 10p
   text-align: center;
   font-weight: 200;
 }
 .popup-container th {
-  background-color: #e0e0e0;
-  color: #000;
+  background-color: #ffffff;
+  color: #222;
   font-weight: 500;
 }
 .popup-container a {
@@ -604,8 +608,8 @@ p:visited {
   margin: 10px;
   padding: 10px 20px;
   text-decoration: none;
-  color: #e0e0e0;
-  border: 1px solid #e0e0e0;
+  color: #ffffff;
+  border: 1px solid #ffffff;
   text-decoration: none;
   white-space: nowrap;
   max-width: 100%;
@@ -618,13 +622,12 @@ p:visited {
   display: inline-block;
   margin: 10px;
   padding: 10px 20px;
-  color: #e0e0e0;
+  color: #ffffff;
   background-color: #222222;
   cursor: pointer;
 }
 .popup-container button:hover {
-  background-color: #dc3545;
-  color: #e0e0e0;
+  color: #ffffff;
 }
 @media (max-width: 600px) {
   .popup-container table {
@@ -640,13 +643,13 @@ p:visited {
   }
 
   .popup-container th {
-    background-color: #e0e0e0;
-    color: #000;
+    background-color: #ffffff;
+    color: #222;
     font-weight: 500;
   }
 
   .popup-container td {
-    border: 1px solid #e0e0e0;
+    border: 1px solid #ffffff;
     padding: 10px;
     text-align: center;
     font-weight: 200;
