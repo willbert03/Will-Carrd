@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 288 216">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #003553;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #eef2ff;
+      }
+
+      .cls-3 {
+        fill: #00aeef;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        fill: #1c75bc;
+      }
+
+      .cls-6 {
+        fill: url(#New_Pattern_Swatch_5);
+      }
+
+      .cls-7 {
+        fill: #2e3192;
+      }
+
+      .cls-8 {
+        fill: #262262;
+      }
+    </style>
+    <pattern id="New_Pattern_Swatch_5" data-name="New Pattern Swatch 5" x="0" y="0" width="81" height="78.76" patternTransform="translate(-400 13.55)" patternUnits="userSpaceOnUse" viewBox="0 0 81 78.76">
+      <g>
+        <rect class="cls-4" y="0" width="81" height="78.76"/>
+        <circle class="cls-5" cx="97.42" cy="19.46" r="19.45"/>
+        <g>
+          <circle class="cls-5" cx="16.42" cy="19.46" r="19.45"/>
+          <circle class="cls-5" cx="67.24" cy="64.79" r="17.38"/>
+          <circle class="cls-3" cx="57.1" cy="22.31" r="16.6"/>
+          <circle class="cls-1" cx="39.21" cy="76.47" r="8.44"/>
+          <circle class="cls-8" cx="19.22" cy="55.87" r="12.97"/>
+          <circle class="cls-1" cx="78.39" cy="41.77" r="5.64"/>
+          <circle class="cls-7" cx="42.98" cy="47.8" r="7.15"/>
+        </g>
+        <g>
+          <circle class="cls-5" cx="-13.76" cy="64.79" r="17.38"/>
+          <circle class="cls-1" cx="-2.61" cy="41.77" r="5.64"/>
+        </g>
+        <g>
+          <circle class="cls-5" cx="67.24" cy="-13.97" r="17.38"/>
+          <circle class="cls-1" cx="39.21" cy="-2.29" r="8.44"/>
+        </g>
+        <circle class="cls-5" cx="-13.76" cy="-13.97" r="17.38"/>
+      </g>
+    </pattern>
+  </defs>
+  <rect class="cls-2" width="288" height="216"/>
+  <g>
+    <rect class="cls-6" width="288" height="216"/>
+    <rect class="cls-6" width="288" height="216"/>
+  </g>
+</svg>

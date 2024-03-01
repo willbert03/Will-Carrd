@@ -1,0 +1,97 @@
+/* ExtraLight 200 */
+@font-face {
+  font-family: "Spectral-ExtraLight";
+  src: url("fonts/Spectral-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Spectral-ExtraLight";
+  src: url("fonts/Spectral-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+/* Light 300 */
+@font-face {
+  font-family: "Spectral-Light";
+  src: url("fonts/Spectral-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Spectral-Light";
+  src: url("fonts/Spectral-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Regular 400 */
+@font-face {
+  font-family: "Spectral-Regular";
+  src: url("fonts/Spectral-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Spectral-Regular";
+  src: url("fonts/Spectral-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Medium 500 */
+@font-face {
+  font-family: "Spectral-Medium";
+  src: url("fonts/Spectral-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Spectral-Medium";
+  src: url("fonts/Spectral-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* SemiBold 600 */
+@font-face {
+  font-family: "Spectral-SemiBold";
+  src: url("fonts/Spectral-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Spectral-SemiBold";
+  src: url("fonts/Spectral-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Bold 700 */
+@font-face {
+  font-family: "Spectral-Bold";
+  src: url("fonts/Spectral-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Spectral-Bold";
+  src: url("fonts/Spectral-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* ExtraBold 800 */
+@font-face {
+  font-family: "Spectral-ExtraBold";
+  src: url("fonts/Spectral-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Spectral-ExtraBold";
+  src: url("fonts/Spectral-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
