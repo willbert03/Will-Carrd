@@ -11,18 +11,28 @@ function closePopup() {
 // Hides when press Escape
 document.addEventListener("keydown", function (event) {
   if (event.key === "Escape") {
-    closePopup();
+    window.location.href = "#";
   }
 });
 
-// Hide when Android back button pressed
+// Initial check for URL hash and open the popup if it matches
 document.addEventListener("DOMContentLoaded", function () {
-  window.addEventListener("popstate", function (event) {
-    closePopup();
-  });
+  // Check if the URL hash matches '#popup'
+  if (window.location.hash === "#portfolio") {
+    openPopup();
+  }
 
-  // Handle Apple back gesture
-  window.onpopstate = function (event) {
+  // Hide when Android back button pressed
+  document.addEventListener("backbutton", function () {
+    window.location.href = "#";
+  });
+});
+
+window.addEventListener("hashchange", function () {
+  if (window.location.hash === "#portfolio") {
+    openPopup();
+  } else {
     closePopup();
-  };
+    window.location.href = "#";
+  }
 });
